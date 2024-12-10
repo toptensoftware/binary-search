@@ -28,9 +28,9 @@ The `compareItems` callback should return:
 * a number greater than zero if `a > b`
 * zero if `a == b`.
 
-If the return value is >= 0 an exact match was found at the returned index.
+If `binarySearch` returns a value `>= 0` an exact match was found at the returned index.
 
-If the return value <0 there was no exact match, but the insert position can
+If `binarySearch` returns value `< 0` there was no exact match, but the insert position can
 be determined from `(-retv-1)`, or by calling `binarySearch.insertPos(retv)`
 
 
