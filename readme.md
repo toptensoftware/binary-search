@@ -5,7 +5,7 @@ Binary search function for JavaScript.
 ## Installation
 
 ```
-npm install --save toptensoftware/binarySearch
+npm install --save toptensoftware/binary-search
 ```
 
 ## Usage
